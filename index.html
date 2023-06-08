@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>DREAM CAR</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <head/>
+    
+    <body>
+<h1 id="title">DREAM CAR</h1>
+<p id="description">This is a survey to see how would be your dream car</p>
+<p>Please fill it out and enjoy it</p>
+<form id='survey-form' method="post" action='https://register-demo.freecodecamp.org'>
+<fieldset>
+  <label id="name-label" for="name">Enter Your Name: <input id="name" placeholder="ej.Steve Parker" type="text" required/></label>
+  <label id="email-label" for="email">Enter Your Email: <input id="email" placeholder="ej. steveparker14@free.com" type="email" required/></label>
+  <label id="number-label" for="number"><input id="number" type="number" min="8" max="120" placeholder="18" value="age">Age</input></label>
+  </fieldset>
+  <fieldset>
+    <label for="make">Make: <input id="position" type="position" required placeholder="Nissan"/></label>
+    <label for="color">Color: <input id="position" type="position" required placeholder="Black"/></label>
+<label id="number-label" for="years"><input placeholder="2002" id="number-label" type="number" min="1950" max="2024">Year</input></label>
+<label for="model">Model: <input id="position" type="position" placeholder="Silvia S15" required/></label>
+<label for="wheels">Specific wheels: <input id="position" type="position" placeholder="Not required"/></label>
+<label for="car-doors"><input id="car-doors" type="radio" name="quantity-doors" value="two" class="inline" /> 2 Doors </label>
+<label for="car-doors"><input id="car-doors" type="radio" name="quantity-doors" value="four" class="inline" /> 4 Doors </label>
+<label for="windows"><input id="windows" type="checkbox" name="windows-tint" value="tint" class="inline" /> Tinted Windows </label>
+<label for=""><input id="car-doors" type="checkbox" name="quantity-doors" value="four" class="inline" /> 4 Doors </label>
+<select id="dropdown">
+    <option value=''>ENGINE TYPE</option>
+    <option value='1'>I4</option>
+    <option value='2'>V6</option>
+    <option value='3'>V8</option>
+    <option value='4'>V10</option>
+    <option value='5'>V12</option>
+    <option value='6'>ROTATORY ENGINE</option>
+  </select>
+  </fieldset>
+  <textarea id="extra" name="extra" rows="3" cols="40" placeholder="What else would you like in your car?"></textarea>
+<input type="submit" value="submit" id="submit"/>
+<h2>Thanks for answer this survey!!!</h2>
+</form>
+</body>
